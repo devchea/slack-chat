@@ -4,18 +4,20 @@ import FiberManualRecordIcon from '@material-ui/icons/FiberManualRecord'
 import CreateIcon from '@material-ui/icons/Create'
 
 function Sidebar() {
-  return(
-    <div className='sidebar'>
-      <div className='sidebar__header'>
-        <h2>My Slack Workspace</h2>
-        <h3>
-          <FiberManualRecordIcon />
-            MyName
-        </h3>
+  return (
+    <div className="sidebar">
+      <div className="sidebar__header">
+        <div className="sidebar__info">
+          <h2>Workspace Name</h2>
+          <h3>
+            <FiberManualRecordIcon />
+            Richard
+          </h3>
+        </div>
         <CreateIcon />
       </div>
     </div>
-  )
+  );
 }
 
 export default Sidebar
