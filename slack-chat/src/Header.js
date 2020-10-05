@@ -2,6 +2,7 @@ import React from 'react'
 import './Header.css'
 import { Avatar } from '@material-ui/core'
 import AccessTimeIcon from '@material-ui/icons/AccessTime'
+import SearchIcon from '@material-ui/icons/Search'
 
 function Header() {
   return (
@@ -13,10 +14,10 @@ function Header() {
           // src={}
           />
         <AccessTimeIcon />
-        {/* Avatar for logged in user */}
-        {/* Time Icon */}
       </div>
       <div className='header__search'>
+        <SearchIcon />
+        <input placeholder='search here'></input>
         {/* Search Icon */}
         {/* Input */}
       </div>
