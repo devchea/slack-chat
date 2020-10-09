@@ -36,6 +36,11 @@
   color: green;
 }
 
+.sidebar > hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #49274b
+}
 .sidebar__header > .MuiSvgIcon-root {
   padding: 8px;
   color: #49274b;

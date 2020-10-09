@@ -6,6 +6,7 @@ import SidebarOption from './SidebarOption'
 import InsertCommentIcon from '@material-ui/icons/InsertComment'
 import BookmarkBorderIcon from "@material-ui/icons/BookmarkBorder"
 import AppsIcon from "@material-ui/icons/Apps"
+import AddIcon from "@material-ui/icons/Add"
 
 function Sidebar() {
   return (
@@ -27,6 +28,8 @@ function Sidebar() {
       <SidebarOption title="Marketing" />
       <SidebarOption title="Dev" />
       <SidebarOption title="Finance" />
+      <hr />
+      <SidebarOption Icon={AddIcon} title="Add Channel" />
     </div>
   );
 }
