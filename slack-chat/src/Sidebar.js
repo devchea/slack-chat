@@ -19,6 +19,10 @@ function Sidebar() {
         <CreateIcon />
       </div>
       <SidebarOption Icon={InsertCommentIcon} title="Threads" />
+      <SidebarOption title="CompanyWideChannel" />
+      <SidebarOption title="Marketing" />
+      <SidebarOption title="Dev" />
+      <SidebarOption title="Finance" />
     </div>
   );
 }
