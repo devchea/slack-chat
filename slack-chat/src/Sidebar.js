@@ -16,7 +16,7 @@ function Sidebar() {
           </h3>
         </div>
         <CreateIcon />
-        <SidebarOption Icon={} title='Threads'/>
+        <SidebarOption title='Threads'/>
       </div>
     </div>
   );
