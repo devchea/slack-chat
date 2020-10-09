@@ -4,6 +4,8 @@ import FiberManualRecordIcon from '@material-ui/icons/FiberManualRecord'
 import CreateIcon from '@material-ui/icons/Create'
 import SidebarOption from './SidebarOption'
 import InsertCommentIcon from '@material-ui/icons/InsertComment'
+import BookmarkBorderIcon from "@material-ui/icons/BookmarkBorder"
+import AppsIcon from "@material-ui/icons/Apps"
 
 function Sidebar() {
   return (
@@ -19,8 +21,8 @@ function Sidebar() {
         <CreateIcon />
       </div>
       <SidebarOption Icon={InsertCommentIcon} title="Threads" />
-      <SidebarOption Icon={InsertCommentIcon} title="Channel Browser" />
-      <SidebarOption Icon={InsertCommentIcon} title="Threads" />
+      <SidebarOption Icon={BookmarkBorderIcon} title="Channel Browser" />
+      <SidebarOption Icon={AppsIcon} title="Apps" />
       <SidebarOption title="CompanyWideChannel" />
       <SidebarOption title="Marketing" />
       <SidebarOption title="Dev" />
